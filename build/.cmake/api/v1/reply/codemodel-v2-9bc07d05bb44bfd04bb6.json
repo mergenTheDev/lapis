@@ -12,7 +12,11 @@
 						"string" : "3.22.2"
 					},
 					"projectIndex" : 0,
-					"source" : "."
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
 			"name" : "Debug",
@@ -23,10 +27,23 @@
 					[
 						0
 					],
-					"name" : "lapis"
+					"name" : "Lapis",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
-			"targets" : []
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Lapis::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lapis-Debug-0109a3e47cfc68b938bc.json",
+					"name" : "Lapis",
+					"projectIndex" : 0
+				}
+			]
 		}
 	],
 	"kind" : "codemodel",

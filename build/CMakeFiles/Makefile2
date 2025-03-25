@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/berkay/Desktop/lapis/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/Lapis.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,8 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean:
+clean: CMakeFiles/Lapis.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Lapis.dir
+
+# All Build rule for target.
+CMakeFiles/Lapis.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lapis.dir/build.make CMakeFiles/Lapis.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lapis.dir/build.make CMakeFiles/Lapis.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/berkay/Desktop/lapis/build/CMakeFiles --progress-num=1,2 "Built target Lapis"
+.PHONY : CMakeFiles/Lapis.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Lapis.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/berkay/Desktop/lapis/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Lapis.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/berkay/Desktop/lapis/build/CMakeFiles 0
+.PHONY : CMakeFiles/Lapis.dir/rule
+
+# Convenience name for target.
+Lapis: CMakeFiles/Lapis.dir/rule
+.PHONY : Lapis
+
+# clean rule for target.
+CMakeFiles/Lapis.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lapis.dir/build.make CMakeFiles/Lapis.dir/clean
+.PHONY : CMakeFiles/Lapis.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
