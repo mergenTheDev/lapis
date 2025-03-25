@@ -1,0 +1,2 @@
+/home/berkay/Desktop/lapis/build/CMakeFiles/edit_cache.dir
+/home/berkay/Desktop/lapis/build/CMakeFiles/rebuild_cache.dir
