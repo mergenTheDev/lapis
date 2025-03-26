@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "Lapis",
+					"name" : "Moonstone",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Lapis::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Lapis-Debug-0109a3e47cfc68b938bc.json",
-					"name" : "Lapis",
+					"id" : "Moonstone::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Moonstone-Debug-8d180dc9bbe0a75ff2d4.json",
+					"name" : "Moonstone",
 					"projectIndex" : 0
 				}
 			]

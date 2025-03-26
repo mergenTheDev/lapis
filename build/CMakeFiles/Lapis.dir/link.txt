@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/Lapis.dir/src/main.cpp.o -o Lapis 
+/usr/bin/c++ -g CMakeFiles/Lapis.dir/src/main.cpp.o -o Lapis  -lOpenGL::GL -lREQUIRED -lglfw -lREQUIRED -lglfw 

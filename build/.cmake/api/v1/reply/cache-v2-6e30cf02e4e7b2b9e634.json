@@ -2,6 +2,42 @@
 	"entries" : 
 	[
 		{
+			"name" : "Bizmuth_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/berkay/Desktop/lapis/build"
+		},
+		{
+			"name" : "Bizmuth_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Bizmuth_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/berkay/Desktop/lapis"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -847,7 +883,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Lapis"
+			"value" : "Moonstone"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1206,6 +1242,18 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenGL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding OpenGL"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/lib/x86_64-linux-gnu/libOpenGL.so][/usr/lib/x86_64-linux-gnu/libGLX.so][/usr/include][c ][v()]"
+		},
+		{
 			"name" : "Lapis_BINARY_DIR",
 			"properties" : 
 			[
@@ -1242,76 +1290,136 @@
 			"value" : "/home/berkay/Desktop/lapis"
 		},
 		{
+			"name" : "Moonstone_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/berkay/Desktop/lapis/build"
+		},
+		{
+			"name" : "Moonstone_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Moonstone_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/berkay/Desktop/lapis"
+		},
+		{
 			"name" : "OPENGL_EGL_INCLUDE_DIR",
 			"properties" : 
 			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
 				{
 					"name" : "HELPSTRING",
 					"value" : "Path to a file."
 				}
 			],
 			"type" : "PATH",
-			"value" : "OPENGL_EGL_INCLUDE_DIR-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "OPENGL_GLES2_INCLUDE_DIR",
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "Path to a file."
 				}
 			],
 			"type" : "PATH",
-			"value" : "OPENGL_GLES2_INCLUDE_DIR-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "OPENGL_GLES3_INCLUDE_DIR",
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "Path to a file."
 				}
 			],
 			"type" : "PATH",
-			"value" : "OPENGL_GLES3_INCLUDE_DIR-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "OPENGL_GLX_INCLUDE_DIR",
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "Path to a file."
 				}
 			],
 			"type" : "PATH",
-			"value" : "OPENGL_GLX_INCLUDE_DIR-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "OPENGL_INCLUDE_DIR",
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "Path to a file."
 				}
 			],
 			"type" : "PATH",
-			"value" : "OPENGL_INCLUDE_DIR-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "OPENGL_egl_LIBRARY",
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "Path to a library."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "OPENGL_egl_LIBRARY-NOTFOUND"
+			"value" : "/usr/lib/x86_64-linux-gnu/libEGL.so"
 		},
 		{
 			"name" : "OPENGL_gl_LIBRARY",
@@ -1330,65 +1438,89 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "Path to a library."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "OPENGL_gles2_LIBRARY-NOTFOUND"
+			"value" : "/usr/lib/x86_64-linux-gnu/libGLESv2.so"
 		},
 		{
 			"name" : "OPENGL_gles3_LIBRARY",
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "Path to a library."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "OPENGL_gles3_LIBRARY-NOTFOUND"
+			"value" : "/usr/lib/x86_64-linux-gnu/libGLESv2.so"
 		},
 		{
 			"name" : "OPENGL_glu_LIBRARY",
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "Path to a library."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "OPENGL_glu_LIBRARY-NOTFOUND"
+			"value" : "/usr/lib/x86_64-linux-gnu/libGLU.so"
 		},
 		{
 			"name" : "OPENGL_glx_LIBRARY",
 			"properties" : 
 			[
 				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "OPENGL_glx_LIBRARY-NOTFOUND"
-		},
-		{
-			"name" : "OPENGL_opengl_LIBRARY",
-			"properties" : 
-			[
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
 				{
 					"name" : "HELPSTRING",
 					"value" : "Path to a library."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "OPENGL_opengl_LIBRARY-NOTFOUND"
+			"value" : "/usr/lib/x86_64-linux-gnu/libGLX.so"
+		},
+		{
+			"name" : "OPENGL_opengl_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so"
 		},
 		{
 			"name" : "OPENGL_xmesa_INCLUDE_DIR",
 			"properties" : 
 			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
 				{
 					"name" : "HELPSTRING",
 					"value" : "Path to a file."

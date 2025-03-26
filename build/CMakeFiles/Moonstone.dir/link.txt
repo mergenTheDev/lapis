@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Moonstone.dir/src/main.cpp.o -o Moonstone  -lglfw /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so 
