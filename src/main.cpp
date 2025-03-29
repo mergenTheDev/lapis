@@ -8,7 +8,7 @@
 int main() {
     glfwInit();
 
-    std::cout << ErrPrefix << std::endl;
+    std::cout << ErrPrefix << WarnPrefix << InfoPrefix << std::endl;
 
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 6);
