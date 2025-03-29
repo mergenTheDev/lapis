@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/berkay/Desktop/lapis/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/Lapis.dir/src/main.cpp.o -c /home/berkay/Desktop/lapis/src/main.cpp",
-  "file": "/home/berkay/Desktop/lapis/src/main.cpp",
-  "output": "CMakeFiles/Lapis.dir/src/main.cpp.o"
-}
-]
