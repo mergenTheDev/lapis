@@ -16,7 +16,7 @@ int main() {
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
     glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE);
 
-    GLFWwindow* window = glfwCreateWindow(1280, 720, "Moonstone", nullptr, nullptr);
+    GLFWwindow* window = glfwCreateWindow(1280, 720, "Lapis", nullptr, nullptr);
 
     if (window == NULL) {
         std::cout << ErrPrefix << "Failed to create Window!" << std::endl;
