@@ -1,0 +1,1 @@
+#define ErrPrefix "\033[41;1;97m[ERROR]\033[0m "
