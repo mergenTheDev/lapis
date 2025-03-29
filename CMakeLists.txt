@@ -6,9 +6,6 @@ find_package(OpenGL REQUIRED)
 
 add_executable(
     Lapis
-    lib/gl/gl.h
-    lib/glfw/glfw3.h
-    lib/nuklear/nuklear.h
     src/main.cpp
 )
 
