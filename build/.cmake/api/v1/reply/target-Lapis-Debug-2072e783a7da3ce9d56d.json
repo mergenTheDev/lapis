@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Moonstone"
+			"path" : "Lapis"
 		}
 	],
 	"backtrace" : 1,
@@ -35,7 +35,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 14,
+				"line" : 15,
 				"parent" : 0
 			},
 			{
@@ -74,11 +74,11 @@
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				2
+				3
 			]
 		}
 	],
-	"id" : "Moonstone::@6890427a1f51a3e7e1df",
+	"id" : "Lapis::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -109,8 +109,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Moonstone",
-	"nameOnDisk" : "Moonstone",
+	"name" : "Lapis",
+	"nameOnDisk" : "Lapis",
 	"paths" : 
 	{
 		"build" : ".",
@@ -123,14 +123,15 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				2
+				3
 			]
 		}
 	],
@@ -144,6 +145,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "lib/glfw/glfw3.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "lib/nuklear/nuklear.h",
 			"sourceGroupIndex" : 0
 		},
 		{

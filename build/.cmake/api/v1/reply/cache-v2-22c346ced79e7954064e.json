@@ -883,7 +883,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Moonstone"
+			"value" : "Lapis"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",

@@ -92,6 +92,8 @@ Lapis_EXTERNAL_OBJECTS =
 
 Lapis: CMakeFiles/Lapis.dir/src/main.cpp.o
 Lapis: CMakeFiles/Lapis.dir/build.make
+Lapis: /usr/lib/x86_64-linux-gnu/libGLX.so
+Lapis: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 Lapis: CMakeFiles/Lapis.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/berkay/Desktop/lapis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Lapis"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lapis.dir/link.txt --verbose=$(VERBOSE)
