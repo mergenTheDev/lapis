@@ -1,6 +1,4 @@
-#include "../lib/imgui/imgui.h"
-#include "../lib/imgui/imgui_impl_glfw.h"
-#include "../lib/imgui/imgui_impl_opengl3.h"
+#include "gui/gui.h"
 
 #define GLAD_GL_IMPLEMENTATION
 #include "../lib/gl/gl.h"
@@ -37,21 +35,26 @@ int main() {
         return -1;
     }
 
-    IMGUI_CHECKVERSION();
-    ImGui::CreateContext();
-    ImGuiIO& io = ImGui::GetIO(); (void)io;
-    ImGui::StyleColorsDark();
-    ImGui_ImplGlfw_InitForOpenGL(window, true);
-    ImGui_ImplOpenGL3_Init("#version 330");
-    
+    InitGui(window);
 
     glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 
     while (!glfwWindowShouldClose(window)) {
         glClear(GL_COLOR_BUFFER_BIT);
+
+        NewFrame();
+
+        ImGui::Begin("Saata Andagi!");
+        ImGui::Text("Hallo!");
+        ImGui::End();
+
+        RenderGui();
+
         glfwPollEvents();
         glfwSwapBuffers(window);
     }
+
+    ShutdownGui();
 
     glfwDestroyWindow(window);
     glfwTerminate();
