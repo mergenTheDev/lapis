@@ -7,6 +7,7 @@ find_package(OpenGL REQUIRED)
 add_executable(
     Lapis
     src/main.cpp
+    src/engine-core/shader/shader.cpp
 )
 
 target_link_libraries(
