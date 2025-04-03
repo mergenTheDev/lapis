@@ -1,3 +1,7 @@
+#include "../lib/imgui/imgui.h"
+#include "../lib/imgui/imgui_impl_glfw.h"
+#include "../lib/imgui/imgui_impl_opengl3.h"
+
 #define GLAD_GL_IMPLEMENTATION
 #include "../lib/gl/gl.h"
 #include "../lib/glfw/glfw3.h"
@@ -32,6 +36,14 @@ int main() {
         glfwTerminate();
         return -1;
     }
+
+    IMGUI_CHECKVERSION();
+    ImGui::CreateContext();
+    ImGuiIO& io = ImGui::GetIO(); (void)io;
+    ImGui::StyleColorsDark();
+    ImGui_ImplGlfw_InitForOpenGL(window, true);
+    ImGui_ImplOpenGL3_Init("#version 330");
+    
 
     glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 
