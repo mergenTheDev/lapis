@@ -1,7 +1,8 @@
 #include "gui/gui.h"
 
 #define GLAD_GL_IMPLEMENTATION
-#include "../lib/gl/gl.h"
+//#include "../lib/gl/gl.h"
+#include "engine-core/shader/shader.h"
 #include "../lib/glfw/glfw3.h"
 #include "engine-core/globals.h"
 #include <glm/glm.hpp>
@@ -17,6 +18,8 @@ int main() {
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
     glfwWindowHint(GLFW_RESIZABLE, GLFW_TRUE);
+
+    glfwSwapInterval(0);
 
     GLFWwindow* window = glfwCreateWindow(1280, 720, "Lapis", nullptr, nullptr);
 
@@ -37,15 +40,18 @@ int main() {
 
     InitGui(window);
 
+    glViewport(0, 0, 1280, 720);
     glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+
+    GLuint program = LoadShader("aww.glsl", "aww.glsl");
 
     while (!glfwWindowShouldClose(window)) {
         glClear(GL_COLOR_BUFFER_BIT);
 
         NewFrame();
 
-        ImGui::Begin("Saata Andagi!");
-        ImGui::Text("Hallo!");
+        ImGui::Begin("Lapis");
+        ImGui::Text("ImGui Works well!");
         ImGui::End();
 
         RenderGui();
