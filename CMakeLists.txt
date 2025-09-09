@@ -6,9 +6,13 @@ find_package(OpenGL REQUIRED)
 
 add_executable(
     Lapis
+
     src/main.cpp
-    src/gui/gui.cpp
+    
+    src/engine-core/file/file.cpp
     src/engine-core/shader/shader.cpp
+    src/engine-core/window/window.cpp
+    
     lib/imgui/imgui_draw.cpp
     lib/imgui/imgui_impl_glfw.cpp
     lib/imgui/imgui_demo.cpp

@@ -1,24 +1,10 @@
 #include "shader.h"
 
-std::string readFile(const char *path) {
-    std::ifstream in(path, std::ios::binary);
-
-	if (in) {
-		std::string shaderFile;
-		in.seekg(0, std::ios::end);
-		shaderFile.resize(in.tellg());
-		in.seekg(0, std::ios::beg);
-		in.read(&shaderFile[0], shaderFile.size());
-		in.close();
-		return(shaderFile);
-	}
-
-	throw(errno);
-}
+const char *vertexShader;
 
 GLuint LoadShader(const char *vertex, const char *fragment) {
-	std::string vertexShaderFile = readFile(vertex);
-	std::string fragmentShaderFile = readFile(fragment);
+	std::string vertexShaderFile = File::ReadFile(vertex);
+	std::string fragmentShaderFile = File::ReadFile(fragment);
 
 	const char *vertexSource = vertexShaderFile.c_str();
 	const char *fragmentSource = fragmentShaderFile.c_str();

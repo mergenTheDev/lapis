@@ -1,6 +1,7 @@
 #pragma once
 
-#include "../globals.h"
+#include "../core.h"
+#include "../file/file.h"
 #include "../../../lib/gl/gl.h"
 #include <iostream>
 #include <string>
@@ -8,6 +9,9 @@
 #include <sstream>
 #include <cerrno>
 
-std::string readFile(const char *path);
-GLuint LoadShader(const char *vertex, const char *fragment);
+class Shader {
+    public:
+        static GLuint LoadShader(const char *fragment);
+};
+
 
